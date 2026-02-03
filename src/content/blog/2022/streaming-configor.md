@@ -5,7 +5,7 @@ description: 最近有一个重构 configor 的想法，把它的序列化操作
 tags: [Cpp]
 ---
 
-最近有一个重构 [configor](https://github.com/Nomango/configor) 的想法，那就是把它的序列化操作改为流式调用。
+最近有一个重构 [configor](https://github.com/l33oo/configor) 的想法，那就是把它的序列化操作改为流式调用。
 
 之前，序列化一个对象的代码是这样的：
 

@@ -64,7 +64,7 @@ Netlify 是美国的一家云计算公司，它的官网 [Netlify](https://www.n
 绑定域名的步骤本身很简单，只需要在`Domain Settings`里点击添加域名，然后再到购买域名的服务商那里配置 CNAME 解析就可以了。
 
 但是如果要为你的网站配置 HTTPS，那就涉及到 Domain DNS 的配置问题了。
-域名 DNS 是用来告诉你域名对应的服务器地址的，比如你访问 nomango.cn，DNS 会告诉你这个域名的服务器实际 ip 地址是 220.x.x.x。
+域名 DNS 是用来告诉你域名对应的服务器地址的，比如你访问 leeoo.me，DNS 会告诉你这个域名的服务器实际 ip 地址是 220.x.x.x。
 
 Netlify 支持自动配置 HTTPS，要求是必须使用 Netlify 提供的 DNS 服务，因为这样才能让它为你的域名自动配置 HTTPS 证书。
 一般在国内购买的域名默认使用的都是国内的 DNS，所以需要到域名管理页面去修改 DNS 服务器
