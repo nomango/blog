@@ -49,7 +49,7 @@ $ echo Hello World!
 
 这是我 Copy 自 [Starlight](https://starlight.astro.build) 框架的功能，它使用的是 `remark-js` 的 [`remark-directive`](https://github.com/remarkjs/remark-directive) 插件实现的。
 
-如果你使用的是 `remark-js` 包进行渲染，或者用的是 `Astro` 框架搭建的网站，那么可以很轻松的加入这个功能，只需要将 [这段代码](https://github.com/l33oo/blog/tree/master/src/plugins/remark-asides) 拷贝到你的项目中，然后在 remark 插件配置中加入下面的代码：
+如果你使用的是 `remark-js` 包进行渲染，或者用的是 `Astro` 框架搭建的网站，那么可以很轻松的加入这个功能，只需要将 [这段代码](https://github.com/nomango/blog/tree/master/src/plugins/remark-asides) 拷贝到你的项目中，然后在 remark 插件配置中加入下面的代码：
 
 ```js title="astro.config.js" {6}
 import remarkDirective from "remark-directive";
@@ -167,7 +167,7 @@ $ echo Hello World!
 :::
 ````
 
-同样是一个基于 `remark-directive` 的插件，代码在[这里](https://github.com/l33oo/blog/tree/master/src/plugins/remark-directive-collapse)。
+同样是一个基于 `remark-directive` 的插件，代码在[这里](https://github.com/nomango/blog/tree/master/src/plugins/remark-directive-collapse)。
 
 只需要将插件加入到 remark plugins 即可。
 
@@ -206,7 +206,7 @@ export default defineConfig({
 :::
 ```
 
-同样是一个基于 `remark-directive` 的插件，代码在[这里](https://github.com/l33oo/blog/tree/master/src/plugins/remark-directive-button)。
+同样是一个基于 `remark-directive` 的插件，代码在[这里](https://github.com/nomango/blog/tree/master/src/plugins/remark-directive-button)。
 
 只需要将插件加入到 remark plugins 即可。
 

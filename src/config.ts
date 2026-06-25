@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://leeoo.me/",
-  author: "Leeoo",
-  desc: "Leeoo's blog website.",
-  title: "Leeoo's Blog",
+  website: "https://haai.page/",
+  author: "Haai",
+  desc: "Haai's blog website.",
+  title: "Haai's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
@@ -20,7 +20,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/l33oo",
+    href: "https://github.com/nomango",
     linkTitle: ` ${SITE.author} on Github`,
     active: true,
   },
@@ -32,7 +32,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:leeoo.liu@foxmail.com",
+    href: "mailto:hi@haai.page",
     linkTitle: `Send an email to ${SITE.author}`,
     active: false,
   },
